@@ -10,7 +10,6 @@ export default defineComponent({
     props: {
         name: {
             type: String,
-            Boolean,
             required: true
         },
         className: {
@@ -22,11 +21,11 @@ export default defineComponent({
             default: '#889aa4'
         },
         width:{
-            type: Number,
+            type: String,
             default: '20'
         },
         height:{
-            type: Number,
+            type: String,
             default: '20'
         }
     },
